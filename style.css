@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+}
+/* Part 1: Navbar */
+
+/* General style rule set for all items in ul */
+.navbar ul {
+  list-style-type: none;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+  float: left;
+  margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+  font-family: Arial;
+  color: black;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+  color: sandybrown;
+}
+
+
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.header-item {
+  text-align: center;
+  flex: 1;
+}
+
+.header-button {
+  background-color: mintcream;
+  color: sandybrown;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 32px;
+  cursor: pointer;
+}
+
+.header-important-container {
+  text-align: center;
+}
+
+#about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-item {
+  text-align: center;
+  flex: 1;
+}
+
+
+
+.challenges-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 250px;
+}
+
+.challenges-item {
+  text-align: center;
+  width: 300px;
+  height: auto;
+  margin: 20px;
+  padding: 10px;
+  flex: 1;
+}
+
+.challenges-item img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  }
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+  flex: none;
+}
+
+body {
+    background-color: #ebd2b3;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+  
+}
+
+h2 {
+  background-color: sandybrown;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: green;
+}
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/* Dark mode specific styles for navbar */
+.dark-mode .navbar ul li a {
+    color: white;
+}
+
+
+
+/* Petiton CSS */
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.petition-para {
+  width: 55%;
+  padding-right: 10px;  
+}
+
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+}
+
+
+/* Form CSS*/
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+
+
+#theme-button {
+  background-color: #ebd2b3;
+  color: sandybrown;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: sandybrown;
+  text-align: center;
+}

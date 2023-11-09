@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ReliefMiddleEast</title>
+    <link rel="icon" href="img/reliefEmoji.png">
+    <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap" rel="stylesheet">
+    <style>
+        h1   {color: sandybrown;}
+    </style>
+   
+</head>
+
+<body>
+
+  <!-- Part 1: Navbar Starter Code -->
+
+<div class="navbar">
+  <ul>
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#challenges">Challenges</a></li>
+    <li><a href="#news">News</a></li>
+    <li><button id="theme-button">Toggle Dark Mode</button></li>
+    <!-- Stretch Challenge: Drop Down -->
+  </ul>
+</div>
+
+
+
+<!-- Part 2: Flexbox Layout Stater Code -->
+
+<!-- <div class="container">
+  <div class="item"></div>
+  <div class="item"></div>
+  <div class="item"></div>
+</div> -->
+
+    <!--- Headings --->
+
+  <div class = "header-container" id="header">
+    <div class="header-item">
+      <img id="header-image" src="img/Refugee1.png" width="650" height="auto" alt="Homeless Refugee Boy"/>
+    </div>
+
+    <div class="header-item">
+    <h1>Relief for the Middle East</h1>
+    <h3>Welcome to Relief Middle East, your source of hope and support in the Middle East's time of need. We stand united to make a difference in a region grappling with food insecurity, frequent natural disasters, and ongoing humanitarian crises.</h3>
+    <button class="header-button" type="button">Send Relief Now</button>
+    <button class="header-button" type="button">Who We Are</button>
+    </div>
+  </div>
+
+    <!--- About --->
+  <div class="header-important-container">
+    <h2>Why is this important?</h2>
+  </div>
+    <div id = "about-container">
+
+      <div class = "about-item">
+    <p>These issues lead to widespread suffering and instability in the Middle East. Addressing them is vital for community well-being and regional peace. ReliefMiddleEast works to raise awareness, assist, and collaborate to counter these challenges, offering hope and support to the impacted.</p>
+
+    <p>
+      The current economic crisis in regards to food insecurity: 
+    </p> 
+    <iframe src="https://www.youtube.com/embed/i6LbHZw8GOo?si=Wqcm-mKxqymxxkkl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+    </iframe>  
+      </div>
+    <!--- Data --->
+
+    <div class="about-item" id="about">
+    <h3>Food Insecurity in the Middle East</h3>
+    <img src="img/FoodInsecurity.png" width="500" height="auto" alt="Food Insecurity Data"/>
+    </div>
+      </div>
+
+  
+<div class="challenges-container" id="challenges">
+
+    <div class = "challenges-item">
+    <h3>
+      Displacement and Migration
+    </h3>
+    <img src="img/genTrauma2.jpg" width="450" height="auto" alt="Family trying to survive"> 
+    <p>
+Instability can lead to mass migrations and crowded refugee camps, which grapple with issues like disease outbreaks and economic challenges
+    </p>
+    </div>
+  
+  <div class = "challenges-item">
+  <h3>
+     Food Insecurity
+  </h3>
+    <img src="img/foodInsecurity.jpg" width="450" height="auto" alt="Money on Fire">
+  <p>
+Unstable farming and trade cause food shortages, leading to widespread malnutrition that affects generations  </p>
+  </div>
+
+  <div class = "challenges-item">
+  <h3>
+    Educational Setbacks
+  </h3>
+  <img src="img/noEdu.png"  width="350" height="auto" alt="No Graduation Cap">
+    <p>
+Without education access, a generation risks a societal 'knowledge gap', hindering regional innovation and progress  </p>
+  </div>
+
+  
+  <div class = "challenges-item">
+  <h3>
+    Healthcare Crisis
+  </h3>
+  <img src="img/healthcareCrisis.jpg" width="350" height="auto" alt="Kid With Sickness">
+  <p>
+Conflict damages and lack of healthcare professionals reduce access to routine care, increasing mortality from prevalent diseases  </p>
+  </div>
+</div>
+
+
+  <!--- Petition ---> 
+  <div class="petition" id="petition">
+
+      <h2>Sign Our Petition 📢</h2>
+    <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
+
+      <div class="petition-container">
+
+
+        <div class="petition-para">
+          <!-- info goes here -->
+          Our mission is vital: addressing the critical issues of food insecurity, natural disasters, and humanitarian crises that heavily impact the Middle East. Your voice matters in this noble cause. By signing our petition, you become a crucial part of a collective effort to bring about meaningful change. Your support empowers us to continue our work, ensuring that those in need are not forgotten. Together, we can create a significant impact and foster a brighter future for the region. Stand with us today — sign the petition and be a part of the change you wish to see in the Middle East.
+        </div>
+
+        <div class="signatures">
+          <p>🖊️ Yusuf from Brooklyn supports this.</p>
+          <p>🖊️ Fatima from Edison supports this.</p>
+          <p>🖊️ Mohammad from Palo Alto supports this.</p>
+        </div>
+
+      </div>
+
+    <!--- Sign Petition Form --->
+    <form id="sign-petition" title="sign-petition">
+      <!-- inputs go here -->
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="hometown">Hometown:</label>
+      <input type="text" id="hometown" name="hometown" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+    </form>
+
+     <!--- Sign Now Button --->
+    <button id="sign-now-button">Sign Now</button>
+
+  </div>
+
+  
+
+    <!--- News ---> <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
+
+  <div class="news-container" id="news">
+    <h2>Recent News</h2>
+    <div class="news-item">
+    <a class="news" href="https://www.aljazeera.com/news/2023/9/14/middle-east-roundup-disaster-in-north-africa-morocco-quake-libya">
+        <article>
+            <h3>Disaster in North Africa – Morocco quake, Libya floods - Al Jazeera</h3>
+        </article>
+    </a>
+    </div>
+
+    
+  <div class="news-item" id="news">
+  <a class="news" href="https://www.theguardian.com/world/natural-disasters+middleeast">
+    <article>
+      <h3>Natural disasters and extreme weather + Middle East and North Africa - The Guardian</h3>
+    </article>
+  </a>
+    
+  </div>
+    
+  </div>  
+
+  <div class="footer">
+    <a href="www.google.com">
+      Contact Us
+    </a>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html> 
