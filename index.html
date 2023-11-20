@@ -55,10 +55,10 @@
   </div>
 
     <!--- About --->
-  <div class="header-important-container">
+  <div class="header-important-container revealable">
     <h2>Why is this important?</h2>
   </div>
-    <div id = "about-container">
+    <div class="revealable" id ="about-container">
 
       <div class = "about-item">
     <p>These issues lead to widespread suffering and instability in the Middle East. Addressing them is vital for community well-being and regional peace. ReliefMiddleEast works to raise awareness, assist, and collaborate to counter these challenges, offering hope and support to the impacted.</p>
@@ -71,14 +71,14 @@
       </div>
     <!--- Data --->
 
-    <div class="about-item" id="about">
+    <div class="about-item revealable" id="about">
     <h3>Food Insecurity in the Middle East</h3>
     <img src="img/FoodInsecurity.png" width="500" height="auto" alt="Food Insecurity Data"/>
     </div>
       </div>
 
   
-<div class="challenges-container" id="challenges">
+<div class="challenges-container revealable" id="challenges">
 
     <div class = "challenges-item">
     <h3>
@@ -121,7 +121,7 @@ Conflict damages and lack of healthcare professionals reduce access to routine c
 
 
   <!--- Petition ---> 
-  <div class="petition" id="petition">
+  <div class="petition revealable" id="petition">
 
       <h2>Sign Our Petition 📢</h2>
     <p id="counter">🖊️ 3 people have signed this petition and support this cause.</p>
@@ -162,7 +162,7 @@ Conflict damages and lack of healthcare professionals reduce access to routine c
 
     <!--- News ---> <!--this will help with a stretch goal, if you do not want to incorporate this, then leave it alone :)-->
 
-  <div class="news-container" id="news">
+  <div class="news-container revealable" id="news">
     <h2>Recent News</h2>
     <div class="news-item">
     <a class="news" href="https://www.aljazeera.com/news/2023/9/14/middle-east-roundup-disaster-in-north-africa-morocco-quake-libya">
@@ -173,7 +173,7 @@ Conflict damages and lack of healthcare professionals reduce access to routine c
     </div>
 
     
-  <div class="news-item" id="news">
+  <div class="news-item revealable" id="news">
   <a class="news" href="https://www.theguardian.com/world/natural-disasters+middleeast">
     <article>
       <h3>Natural disasters and extreme weather + Middle East and North Africa - The Guardian</h3>
@@ -184,7 +184,19 @@ Conflict damages and lack of healthcare professionals reduce access to routine c
     
   </div>  
 
-  <div class="footer">
+  <!-- Modal -->
+  <div id="thanks-modal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div id="modal-text-container">
+        <p id="thanks-modal-content">Thank you for your support!</p>
+        <!-- button here (stretch feature) -->
+      </div>
+      <img src="img/catlol.png" alt="Thank You Image">
+    </div>
+  </div>
+  
+  <div class="footer revealable">
     <a href="www.google.com">
       Contact Us
     </a>
