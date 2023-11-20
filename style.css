@@ -198,6 +198,23 @@ a:active {
   opacity: 1;
 }
 
+/* petition container*/
+
+.petition {
+  border: 12px solid sandybrown;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#sign-now-button {
+  background-color:sandybrown;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  cursor: pointer;
+  margin-left: 100px;
+}
 
 /* Form CSS*/
 .error {
